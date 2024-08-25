@@ -1,0 +1,175 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 3.3687989711761, 1.4133545160294, 3.8450014591217, },
+		bbMin = { -3.0512619018555, -1.4133545160294, -0.029088914394379, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 3.2100305557251, 1.4133545160294, 1.9370452165604, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/Bauzugwagen/Schotterwagen/rumpf.mtl", },
+						mesh = "vehicle/waggon/Bauzugwagen/Schotterwagen/schotterwagen_lod0.msh",
+						name = "schotterwagen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Bauzugwagen/Schotterwagen/rumpf.mtl", },
+						mesh = "vehicle/waggon/Bauzugwagen/Schotterwagen/rad_lod0.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5999999046326, 0, 0.47109115123749, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Bauzugwagen/Schotterwagen/rumpf.mtl", },
+						mesh = "vehicle/waggon/Bauzugwagen/Schotterwagen/rad_lod0.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5999999046326, 0, 0.47109115123749, 1, },
+					},
+                    {
+				        _meshId = 4,
+				        materials = { "vehicle/waggon/zugschluss.mtl", },
+				        mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+                        name = "zugschluss_de_front",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.85, -1.21, 2.52, 1, },
+			        },
+                    {
+				        _meshId = 5,
+				        materials = { "vehicle/waggon/zugschluss.mtl", },
+				        mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+                        name = "zugschluss_de_front",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.85, 1.21, 2.52, 1, },
+			        },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+		},
+        {
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/Bauzugwagen/Schotterwagen/rumpf.mtl", },
+						mesh = "vehicle/waggon/Bauzugwagen/Schotterwagen/schotterwagen_lod1.msh",
+						name = "schotterwagen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Bauzugwagen/Schotterwagen/rumpf.mtl", },
+						mesh = "vehicle/waggon/Bauzugwagen/Schotterwagen/rad_lod1.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5999999046326, 0, 0.47109115123749, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Bauzugwagen/Schotterwagen/rumpf.mtl", },
+						mesh = "vehicle/waggon/Bauzugwagen/Schotterwagen/rad_lod1.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5999999046326, 0, 0.47109115123749, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 600,
+		},
+        {
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/Bauzugwagen/Schotterwagen/rumpf.mtl", },
+						mesh = "vehicle/waggon/Bauzugwagen/Schotterwagen/schotterwagen_lod2.msh",
+						name = "schotterwagen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Bauzugwagen/Schotterwagen/rumpf.mtl", },
+						mesh = "vehicle/waggon/Bauzugwagen/Schotterwagen/rad_lod2.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5999999046326, 0, 0.47109115123749, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Bauzugwagen/Schotterwagen/rumpf.mtl", },
+						mesh = "vehicle/waggon/Bauzugwagen/Schotterwagen/rad_lod2.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5999999046326, 0, 0.47109115123749, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 600,
+			visibleTo = 1050,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1948,
+			yearTo = 2004,
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("Schotterwagen_Bauzug_name"),
+            description = _("Schotterwagen_desc"),
+		},
+		maintenance = {
+			runningCosts = -1,
+			lifespan = 29220
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/waggon/Bauzugwagen/Schotterwagen/rad_lod0.msh", },
+                    frontForwardParts = { },
+                    backForwardParts = { 4, 5, },
+                    frontBackwardParts = { },
+                    backBackwardParts = { },
+                    innerForwardParts = { },
+                    innerBackwardParts = { }
+				},
+                {
+					axles = { "vehicle/waggon/Bauzugwagen/Schotterwagen/rad_lod1.msh", },
+				},
+                
+                {
+					axles = { "vehicle/waggon/Bauzugwagen/Schotterwagen/rad_lod2.msh", },
+				},
+			},
+			engines = { },
+			soundSet = {
+				name = "waggon_freight_old",
+			},
+			topSpeed = 16.6666667,
+			weight = 12,
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			loadSpeed = 1,
+			multipleUnitOnly = false,
+			groupFileName = "vehicle/waggon/Bauzugwagen/menu_Bauzugwagen.mdl",
+			reversible = false,
+		},
+	},
+	version = 1,
+}
+end

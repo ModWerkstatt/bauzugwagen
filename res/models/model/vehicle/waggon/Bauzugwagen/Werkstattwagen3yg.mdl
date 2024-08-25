@@ -1,0 +1,260 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 6.66084, 1.5725672245026, 4.2079877853394, },
+		bbMin = { -6.66084, -1.5746665000916, -0.048796832561493, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 6.7839574813843, 1.5736168622971, 2.1283922195435, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+				        _meshId = 1,
+                        materials = { "vehicle/waggon/Bauzugwagen/3yg/werkstattwagen3yg.mtl", },
+				        mesh = "vehicle/waggon/Bauzugwagen/3yg/werkstattwagen_lod0.msh",
+				        name = "rumpf_B3yg",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+			        {
+				        _meshId = 2,
+                        materials = { "vehicle/waggon/Bauzugwagen/3yg/innen3yg.mtl", },
+				        mesh = "vehicle/waggon/Bauzugwagen/3yg/innen_lod0.msh",
+				        name = "Rad",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+			        {
+				        _meshId = 3,
+                        materials = { "vehicle/waggon/Bauzugwagen/3yg/werkstattwagen3yg.mtl", },
+				        mesh = "vehicle/waggon/Bauzugwagen/3yg/rad_lod0.msh",
+				        name = "Rad",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.7394499778748, 0, 0.47922068834305, 1, },
+			        },
+			        {
+				        _meshId = 4,
+                        materials = { "vehicle/waggon/Bauzugwagen/3yg/werkstattwagen3yg.mtl", },
+				        mesh = "vehicle/waggon/Bauzugwagen/3yg/rad_lod0.msh",
+				        name = "Rad",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.7394499778748, 0, 0.47922068834305, 1, },
+			        },
+			        {
+				        _meshId = 5,
+                        materials = { "vehicle/waggon/Bauzugwagen/3yg/werkstattwagen3yg.mtl", },
+				        mesh = "vehicle/waggon/Bauzugwagen/3yg/rad_lod0.msh",
+				        name = "Rad",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.47922068834305, 1, },
+			        },
+			        {
+                        _meshId = 6,
+                        materials = { "vehicle/waggon/Bauzugwagen/3yg/glas3yg.mtl", },
+				        mesh = "vehicle/waggon/Bauzugwagen/3yg/glas_werkstattwagen_lod0.msh",
+				        name = "glas_B3yg",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+	                {
+		                _meshId = 7,
+                        materials = { "vehicle/waggon/Bauzugwagen/3yg/licht3yg.mtl", },
+		                mesh = "vehicle/waggon/Bauzugwagen/3yg/licht_lod0.msh",
+		                name = "licht_oben",
+		                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+	                },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+        {
+			node = {
+				children = {
+					{
+				        _meshId = 1,
+                        materials = { "vehicle/waggon/Bauzugwagen/3yg/werkstattwagen3yg.mtl", },
+				        mesh = "vehicle/waggon/Bauzugwagen/3yg/werkstattwagen_lod1.msh",
+				        name = "rumpf_B3yg",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+			        {
+				        _meshId = 2,
+                        materials = { "vehicle/waggon/Bauzugwagen/3yg/innen3yg.mtl", },
+				        mesh = "vehicle/waggon/Bauzugwagen/3yg/innen_lod0.msh",
+				        name = "Rad",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+			        {
+				        _meshId = 3,
+                        materials = { "vehicle/waggon/Bauzugwagen/3yg/werkstattwagen3yg.mtl", },
+				        mesh = "vehicle/waggon/Bauzugwagen/3yg/rad_lod1.msh",
+				        name = "Rad",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.7394499778748, 0, 0.47922068834305, 1, },
+			        },
+			        {
+				        _meshId = 4,
+                        materials = { "vehicle/waggon/Bauzugwagen/3yg/werkstattwagen3yg.mtl", },
+				        mesh = "vehicle/waggon/Bauzugwagen/3yg/rad_lod1.msh",
+				        name = "Rad",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.7394499778748, 0, 0.47922068834305, 1, },
+			        },
+			        {
+				        _meshId = 5,
+                        materials = { "vehicle/waggon/Bauzugwagen/3yg/werkstattwagen3yg.mtl", },
+				        mesh = "vehicle/waggon/Bauzugwagen/3yg/rad_lod1.msh",
+				        name = "Rad",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.47922068834305, 1, },
+			        },
+			        {
+                        _meshId = 6,
+                        materials = { "vehicle/waggon/Bauzugwagen/3yg/glas3yg.mtl", },
+				        mesh = "vehicle/waggon/Bauzugwagen/3yg/glas_werkstattwagen_lod0.msh",
+				        name = "glas_B3yg",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 500,
+		},
+        {
+			node = {
+				children = {
+					{
+				        _meshId = 1,
+                        materials = { "vehicle/waggon/Bauzugwagen/3yg/werkstattwagen3yg.mtl", },
+				        mesh = "vehicle/waggon/Bauzugwagen/3yg/werkstattwagen_lod2.msh",
+				        name = "rumpf_B3yg",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+			        {
+				        _meshId = 3,
+                        materials = { "vehicle/waggon/Bauzugwagen/3yg/werkstattwagen3yg.mtl", },
+				        mesh = "vehicle/waggon/Bauzugwagen/3yg/rad_lod2.msh",
+				        name = "Rad",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.7394499778748, 0, 0.47922068834305, 1, },
+			        },
+			        {
+				        _meshId = 4,
+                        materials = { "vehicle/waggon/Bauzugwagen/3yg/werkstattwagen3yg.mtl", },
+				        mesh = "vehicle/waggon/Bauzugwagen/3yg/rad_lod2.msh",
+				        name = "Rad",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.7394499778748, 0, 0.47922068834305, 1, },
+			        },
+			        {
+				        _meshId = 5,
+                        materials = { "vehicle/waggon/Bauzugwagen/3yg/werkstattwagen3yg.mtl", },
+				        mesh = "vehicle/waggon/Bauzugwagen/3yg/rad_lod2.msh",
+				        name = "Rad",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.47922068834305, 1, },
+			        },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1400,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1956,
+			yearTo = 1968,
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("Werkstattwagen3yg_name"),
+			description = _("Werkstattwagen3yg_desc")
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 21915,
+			runningCostScale = 1,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+                {
+					axles = { "vehicle/waggon/Bauzugwagen/3yg/rad_lod0.msh", },
+					backBackwardParts = { },
+					backForwardParts = { 7, },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+                {
+					axles = { "vehicle/waggon/Bauzugwagen/3yg/rad_lod1.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+                {
+					axles = { "vehicle/waggon/Bauzugwagen/3yg/rad_lod2.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+            },
+			engines = { },
+			soundSet = {
+				name = "waggon_modern",
+			},
+			topSpeed = 23.611111111,
+			weight = 18.0,
+		},
+		seatProvider = {
+			crewModels = { },
+			drivingLicense = "RAIL",
+			seats = {
+			},
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartmentsList = {
+				{
+					loadConfigs = {
+						{
+							cargoEntries = {
+								{
+									capacity = 4,
+									seats = { },
+									type = "PASSENGERS",
+								},
+							},
+							toHide = { },
+						},
+					},
+				},
+			},
+			loadSpeed = 2,
+			multipleUnitOnly = false,
+			reversible = false,
+            groupFileName = "vehicle/waggon/Bauzugwagen/menu_Bauzugwagen.mdl",
+		},
+	},
+	version = 1,
+}
+end
