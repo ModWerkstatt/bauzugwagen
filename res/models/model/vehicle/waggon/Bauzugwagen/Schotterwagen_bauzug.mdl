@@ -124,7 +124,7 @@ return {
 			priceScale = 1,
 		},
 		description = {
-			name = _("Schotterwagen_Bauzug_name"),
+			name = _("Schotterwagen_Bauzug_name") .. _("leer"),
             description = _("Schotterwagen_desc"),
 		},
 		maintenance = {
@@ -150,7 +150,7 @@ return {
                 {
 					axles = { "vehicle/waggon/Bauzugwagen/Schotterwagen/rad_lod1.msh", },
 				},
-                
+
                 {
 					axles = { "vehicle/waggon/Bauzugwagen/Schotterwagen/rad_lod2.msh", },
 				},

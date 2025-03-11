@@ -66,6 +66,11 @@ return {
 									seats = { },
 									type = "PASSENGERS",
 								},
+                                {
+									capacity = 1,
+									seats = { },
+									type = "GRAVEL",
+								},
 							},
 							toHide = { },
 						},

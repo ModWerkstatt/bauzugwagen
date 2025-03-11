@@ -47,7 +47,7 @@ return {
                         name = "zugschluss_de_front",
 				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.85, 1.21, 2.52, 1, },
 			        },
-                    {						
+                    {
 						materials = { "vehicle/waggon/stone.mtl", },
 						mesh = "vehicle/waggon/Bauzugwagen/Schotterwagen/beladung/beladung_2_lod0.msh",
 						name = "beladung",
@@ -82,7 +82,7 @@ return {
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5999999046326, 0, 0.47109115123749, 1, },
 					},
-                    {						
+                    {
 						materials = { "vehicle/waggon/stone.mtl", },
 						mesh = "vehicle/waggon/Bauzugwagen/Schotterwagen/beladung/beladung_2_lod1.msh",
 						name = "beladung",
@@ -117,7 +117,7 @@ return {
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5999999046326, 0, 0.47109115123749, 1, },
 					},
-                    {						
+                    {
 						materials = { "vehicle/waggon/stone.mtl", },
 						mesh = "vehicle/waggon/Bauzugwagen/Schotterwagen/beladung/beladung_2_lod1.msh",
 						name = "beladung",
@@ -142,7 +142,7 @@ return {
 			priceScale = 1,
 		},
 		description = {
-			name = _("Schotterwagen_Bauzug_name"),
+			name = _("Schotterwagen_Bauzug_name") .. _("halb"),
             description = _("Schotterwagen_desc"),
 		},
 		maintenance = {
@@ -168,7 +168,7 @@ return {
                 {
 					axles = { "vehicle/waggon/Bauzugwagen/Schotterwagen/rad_lod1.msh", },
 				},
-                
+
                 {
 					axles = { "vehicle/waggon/Bauzugwagen/Schotterwagen/rad_lod2.msh", },
 				},
