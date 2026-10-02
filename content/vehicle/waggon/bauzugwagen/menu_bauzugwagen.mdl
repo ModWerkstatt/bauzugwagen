@@ -13,12 +13,12 @@ return {
 		},
 		lods = {
 			{ 
-				node = { 
-					children = {
-						{ 
-							materials = { "//mat/missing_object.mtl", },
-							mesh = "//msh/cube_1x1_lod0.msh",
-							name = "cube_1x1_lod0_1",
+			node = { 
+				children = {
+						{
+							materials = { "::/placeholders/mat/missing_object.mtl", },
+							mesh = "::/placeholders/msh/cube_1x1_lod0.msh",
+							name = "cube_1x1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},

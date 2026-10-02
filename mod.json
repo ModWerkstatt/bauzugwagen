@@ -55,6 +55,19 @@
         {
             "loadBefore": true,
             "mod": {
+                "modId": "mw_kbs442",
+                "revisionMin": 1,
+                "revisionMax": -1 
+            },
+            "modInfo": {
+                "displayName": "Rlmms 56 / Kbs 442 / Kbgs 442 Stake cars",
+                "url": "https://modwerkstatt.com/downloads/tpf3/rlmms-rlmmso-56-kbs-kls-442"
+            },
+            "optional": false
+        },
+        {
+            "loadBefore": true,
+            "mod": {
                 "modId": "mw_schotterwagen",
                 "revisionMin": 1,
                 "revisionMax": -1

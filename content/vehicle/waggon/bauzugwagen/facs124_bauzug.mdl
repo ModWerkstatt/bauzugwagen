@@ -16,7 +16,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Facs124_bauzug.mtl", },
+							materials = { "mat/facs124_bauzug.mtl", },
 							mesh = "mw_facs124::/vehicle/waggon/facs124/msh/rumpf_lod0.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -168,7 +168,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Facs124_bauzug.mtl", },
+							materials = { "mat/facs124_bauzug.mtl", },
 							mesh = "mw_facs124::/vehicle/waggon/facs124/msh/rumpf_lod1.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -232,7 +232,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Facs124_bauzug.mtl", },
+							materials = { "mat/facs124_bauzug.mtl", },
 							mesh = "mw_facs124::/vehicle/waggon/facs124/msh/rumpf_lod2.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },

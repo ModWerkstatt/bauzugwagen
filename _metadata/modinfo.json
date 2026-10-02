@@ -1,22 +1,22 @@
 {
-    "name": "Construction train cars",
-    "summary": "Various vehicles for track construction sites.",
-    "description": "Various wagons for use in construction trains for transport and ballast as well as for official use, for overnight stays or for longer stays of people e.g. on construction sites.",
-    "localization" : {
-        "de": {
-            "name": "Bauzugwagen",
-            "summary": "Verschiedene Wagen für Gleisbaustellen.",
-            "description": "Verschiedene Wagen für den Einsatz in Bauzügen zum Transport und Schotter sowie zum Dienstgebrauch, zur Übernachtung oder zum längeren Aufenthalt von Personen z.B. auf Baustellen."
-        }
-    },
     "authors": [
         {
             "name": "Modwerkstatt",
             "role": "CREATOR"
         }
     ],
+    "description": "Various wagons for use in construction trains for transport and ballast as well as for official use, for overnight stays or for longer stays of people e.g. on construction sites.<br><hr><br>Verschiedene Wagen für den Einsatz in Bauzügen zum Transport und Schotter sowie zum Dienstgebrauch, zur Übernachtung oder zum längeren Aufenthalt von Personen z.B. auf Baustellen.",
+    "localization": {
+        "de": {
+            "description": "Verschiedene Wagen für den Einsatz in Bauzügen zum Transport und Schotter sowie zum Dienstgebrauch, zur Übernachtung oder zum längeren Aufenthalt von Personen z.B. auf Baustellen.",
+            "name": "Bauzugwagen",
+            "summary": "Verschiedene Wagen für Gleisbaustellen."
+        }
+    },
+    "name": "Construction train cars",
+    "summary": "Various vehicles for track construction sites.",
     "tags": [
-        "Waggon"
+        "Wagon"
     ],
     "url": "https://modwerkstatt.com/downloads/tpf3/bauzug"
 }
