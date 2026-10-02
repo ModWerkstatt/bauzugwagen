@@ -1,0 +1,88 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 1.5, 1.5, 1.5, },
+			bbMin = { -1.5, -1.5, -1.5, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 1.5, 1.5, 1.5, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "//mat/missing_object.mtl", },
+							mesh = "//msh/cube_1x1_lod0.msh",
+							name = "cube_1x1_lod0_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.5, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 500,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 0,
+				yearTo = 0,
+			},
+			cost = { 
+				price = 0,
+			},
+			description = { 
+				name = _("menu_bauzugwagen"),
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				curveSpeedScale = 1,
+				engines = { },
+				friction = 0.02,
+				topSpeed = 0,
+				weightEmpty = 0,
+				weightMaxPayload = 0,
+			},
+			maintenance = { 
+				lifespan = 0,
+				runningCosts = 0,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { },
+					fakeBogies = { },
+				},
+			},
+			seatProvider = { 
+				crewModels = { },
+				drivingLicense = "RAIL",
+				seats = { },
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 1,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				engineTransportModes = { },
+				entrances = { },
+				filterTags = { },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end

@@ -1,0 +1,84 @@
+{
+    "dependencies": [
+        {
+            "loadBefore": true,
+            "mod": {
+                "modId": "mw_basis",
+                "revisionMin": 1,
+                "revisionMax": -1
+            },
+            "modInfo": {
+                "displayName": "ModWerkstatt Base Mod",
+                "url": "https://modwerkstatt.com/downloads/tpf3/basismod"
+            },
+            "optional": false
+        },
+        {
+            "loadBefore": true,
+            "mod": {
+                "modId": "mw_facs124",
+                "revisionMin": 1,
+                "revisionMax": -1
+            },
+            "modInfo": {
+                "displayName": "DB Facs 124 Bogie bulk goods wagon",
+                "url": "https://modwerkstatt.com/downloads/tpf3/facs-124"
+            },
+            "optional": false
+        },
+        {
+            "loadBefore": true,
+            "mod": {
+                "modId": "mw_fcs090",
+                "revisionMin": 1,
+                "revisionMax": -1
+            },
+            "modInfo": {
+                "displayName": "Otmm 70 | Eds 090 | Fcs 090 | Fcs 092",
+                "url": "https://modwerkstatt.com/downloads/tpf3/fcs090"
+            },
+            "optional": false
+        },
+        {
+            "loadBefore": true,
+            "mod": {
+                "modId": "mw_umbauwagen3yg",
+                "revisionMin": 1,
+                "revisionMax": -1 
+            },
+            "modInfo": {
+                "displayName": "DB \"Umbau-Wagen\" 3-axles",
+                "url": "https://modwerkstatt.com/downloads/tpf3/umbauwagen-3yg"
+            },
+            "optional": false
+        },
+        {
+            "loadBefore": true,
+            "mod": {
+                "modId": "mw_schotterwagen",
+                "revisionMin": 1,
+                "revisionMax": -1
+            },
+            "modInfo": {
+                "displayName": "Ballast wagons",
+                "url": "https://modwerkstatt.com/downloads/tpf3/schotterwagen"
+            },
+            "optional": false
+        }
+    ],
+    "incompatibilities": null,
+    "modId": "mw_bauzugwagen",
+    "params": null,
+    "postRunScript": {
+        "fileName": ""
+    },
+    "preRunScript": {
+        "fileName": ""
+    },
+    "revision": 1,
+    "runScript": {
+        "fileName": ""
+    },
+    "severityAdd": "None",
+    "severityRemove": "Warning"
+}

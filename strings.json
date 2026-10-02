@@ -1,0 +1,82 @@
+{
+	"en": {
+		
+        "menu_bauzugwagen" : "Construction train (Facs | Fcs | Kbs | conversion cars)",
+		
+        "fake": "Fake - ",
+		
+        "fake_bauzugwagen" : "Enable Fake Versions?",
+        "tooltip_fake_bauzugwagen" : "Should the fake versions be available in the game?",
+		
+        "dienstwagen_3yg_name" : "Company car conversion car",
+        "dienstwagen_3yg_desc" : "Retired 3-axle conversion wagons were continued to be used as railway service vehicles.",
+        "werkstattwagen_3yg_name" : "Workshop car conversion car",
+        "werkstattwagen_3yg_desc" : "Retired 3-axle conversion wagons were continued to be used as railway service vehicles.",
+        "facs124_bauzug_name" : "Facs 124 Construction train DB AG",
+        "facs124_bauzug_desc" : "Type Facs 124 self-unloading wagon with gravity discharge in yellow as a Deutsche Bahn AG construction train. Unloaded, half full or fully loaded with track ballast.",
+        "fcs090_wiebe_name" : "Fcs 090 Wiebe",
+        "fcs090_wiebe_desc" : "Type Facs 124 self-unloading wagon with gravity discharge in yellow as of Deutsche Bahn AG construction train. Unloaded, half full or fully loaded with track ballast.",
+        "fcs090_oebb_name" : "Fcs 090 ÖBB Infrastruktur",
+        "fcs090_oebb_desc" : "Type Fcs 090 self-unloading wagon with gravity discharge in ÖBB Infrastructure livery. Unloaded, half full or fully loaded with track ballast.",
+        "fcs090_gleisbau_name" : "Fcs 090 Gleisbau",
+        "fcs090_gleisbau_desc" : "Fcs 090 type self-unloading wagon with gravity discharge in the colour scheme of the company Hering Gleisbau. Unloaded, half full or fully loaded with track ballast.",
+        "kbs442_bauzug_name" : "Kbs 442 Rungenwagen DB",
+        "kbs442_bauzug_dbag_name" : "Kbs 442 Rungenwagen DB AG",
+        "kbs442_bauzug_desc" : "Stake wagon with plugged stakes type Kbs 442. Unloaded or loaded with wheelsets.",
+        "kls442_bauzug_name" : "Kls 442 Rungenwagen DB",
+        "kls442_bauzug_dbag_name" : "Kls 442 Rungenwagen DB AG",
+        "kls442_bauzug_desc" : "Kls 442 type stake wagon without stakes. Unloaded or loaded with track ballast.",
+        "schotterwagen_bauzug_name" : "Schotterwagen",
+        "schotterwagen_desc" : "Ballast wagons have two centrally arranged chutes in addition to the side chutes, so that the area between the tracks can also be ballasted. In addition to the actual function of transporting ballast, the purpose of the vehicle is also the targeted placement of the load.",
+		
+		"assets": "Assets Show?",
+		"tooltip_assets": "Should the assets be capitalized?",
+		"bauzugwagen_assets": "Adtranz Class 145 / 146.0",
+		"bauzugwagen_assets_desc": "The Adtranz Class 145 / 146.0 variants available in this menu.",
+		"auswahl_bauzugwagen": "Selecting from the available options",
+		"tooltip_auswahl": "Selection of the various options available.",
+		"x_axis": "X-axis offset",
+		"tooltip_offest_x": "The asset can be moved along the X-axis in 10-centimeter increments."
+		
+	},
+	"de": {
+		
+        "menu_bauzugwagen" : "Bauzug (Facs | Fcs | Kbs | Dienstwagen)",
+		
+        "fake": "Fake - ",
+		
+        "fake_bauzugwagen" : "Fake-Versionen aktivieren?",
+        "tooltip_fake_bauzugwagen" : "Sollen die Fake-Versionen verfügbar sein im Spiel?",
+		
+        "dienstwagen_3yg_name" : "Dienstwagen Umbauwagen",
+        "dienstwagen_3yg_desc" : "Ausgemusterte 3-achsige Umbauwagen wurden als Bahndienstwagen weitergenutzt.",
+        "werkstattwagen_3yg_name" : "Werkstattwagen Umbauwagen",
+        "werkstattwagen_3yg_desc" : "Ausgemusterte 3-achsige Umbauwagen wurden als Bahndienstwagen weitergenutzt.",
+        "facs124_bauzug_name" : "Facs 124 Bauzug DB AG",
+        "facs124_bauzug_desc" : "Selbstentladewagen mit Schwerkraftentleerung der Bauart Facs 124 in gelb als Bauzug der Deutschen Bahn AG. Unbeladen, halb voll beladen oder voll beladen mit Gleisschotter.",
+        "fcs090_wiebe_name" : "Fcs 090 Wiebe",
+        "fcs090_wiebe_desc" : "Selbstentladewagen mit Schwerkraftentleerung der Bauart Fcs 090 in braun als Bauzug der Firma H.F. Wiebe. Unbeladen, halb voll beladen oder voll beladen mit Gleisschotter.",
+        "fcs090_oebb_name" : "Fcs 090 ÖBB Infrastruktur",
+        "fcs090_oebb_desc" : "Selbstentladewagen mit Schwerkraftentleerung der Bauart Fcs 090 in Farbgebung der ÖBB Infrastruktur. Unbeladen, halb voll beladen oder voll beladen mit Gleisschotter.",
+        "fcs090_gleisbau_name" : "Fcs 090 Gleisbau",
+        "fcs090_gleisbau_desc" : "Selbstentladewagen mit Schwerkraftentleerung der Bauart Fcs 090 in Farbgebung der Firma Hering Gleisbau. Unbeladen, halb voll beladen oder voll beladen mit Gleisschotter.",
+        "kbs442_bauzug_name" : "Kbs 442 Rungenwagen DB",
+        "kbs442_bauzug_dbag_name" : "Kbs 442 Rungenwagen DB AG",
+        "kbs442_bauzug_desc" : "Rungenwagen mit gesteckten Rungen der Bauart Kbs 442. Unbeladen oder beladen mit Radsätzen.",
+        "kls442_bauzug_name" : "Kls 442 Rungenwagen DB",
+        "kls442_bauzug_dbag_name" : "Kls 442 Rungenwagen DB AG",
+        "kls442_bauzug_desc" : "Rungenwagen ohne Rungen der Bauart Kls 442. Unbeladen oder beladen mit Gleisschotter.",
+        "schotterwagen_bauzug_name" : "Schotterwagen",
+        "schotterwagen_desc" : "Schotterwagen verfügen neben den seitlichen Schüttvorrichtungen über zwei mittig angeordnete Schütten, um auch den Bereich zwischen den Gleisen beschottern zu können. Neben der eigentlichen Funktion des Schottertransports ist als auch die gezielte Einbringung des Ladegutes Zweck des Fahrzeuges.",
+		
+		"assets": "Assets einblenden?",
+		"tooltip_assets": "Soll die Assets aktiviert werden?",		
+		"bauzugwagen_assets": "Adtranz BR 145 / 146.0",
+		"bauzugwagen_assets_desc": "In diesem Menü sind die Adtranz BR 145 / 146.0 Varianten verfügbar.",
+		"auswahl_bauzugwagen": "Auswahl der verfügbaren Varianten",
+		"tooltip_auswahl": "Auswahl der verschiedenen Varianten, die verfügbar sind.",
+		"x_axis": "Verschub x-Achse",
+		"tooltip_offest_x": "Das Asset kann auf der X-Achse in 10 cm-Schritten verschoben werden."
+
+	}
+}

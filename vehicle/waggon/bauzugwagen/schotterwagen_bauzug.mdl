@@ -1,0 +1,320 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 3.25049, 1.42591, 3.80545, },
+			bbMin = { -3.04326, -1.42591, -0.0291801, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 3.14688, 1.42591, 1.91732, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.103616, -1.19209e-07, 1.88813, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/schotterwagen_wiebe.mtl", },
+							mesh = "mw_schotterwagen::/vehicle/waggon/schotterwagen/msh/schotterwagen_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/schotterwagen_wiebe.mtl", },
+							mesh = "mw_schotterwagen::/vehicle/waggon/schotterwagen/msh/rad_lod0.msh",
+							name = "a1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.6, 0, 0.471, 1, },
+						},
+						{ 
+							materials = { "mat/schotterwagen_wiebe.mtl", },
+							mesh = "mw_schotterwagen::/vehicle/waggon/schotterwagen/msh/rad_lod0.msh",
+							name = "a2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6, 0, 0.471, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_de_front_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.85, -1.21, 2.52, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_de_front_2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.85, 1.21, 2.52, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_de_back_1",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.85, -1.21, 2.52, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_de_back_2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.85, 1.21, 2.52, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 200,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/schotterwagen_wiebe.mtl", },
+							mesh = "mw_schotterwagen::/vehicle/waggon/schotterwagen/msh/schotterwagen_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/schotterwagen_wiebe.mtl", },
+							mesh = "mw_schotterwagen::/vehicle/waggon/schotterwagen/msh/rad_lod1.msh",
+							name = "a1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.6, 0, 0.471091, 1, },
+						},
+						{ 
+							materials = { "mat/schotterwagen_wiebe.mtl", },
+							mesh = "mw_schotterwagen::/vehicle/waggon/schotterwagen/msh/rad_lod1.msh",
+							name = "a2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6, 0, 0.471091, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 200,
+				visibleTo = 600,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/schotterwagen_wiebe.mtl", },
+							mesh = "mw_schotterwagen::/vehicle/waggon/schotterwagen/msh/schotterwagen_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/schotterwagen_wiebe.mtl", },
+							mesh = "mw_schotterwagen::/vehicle/waggon/schotterwagen/msh/rad_lod2.msh",
+							name = "a1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.6, 0, 0.471091, 1, },
+						},
+						{ 
+							materials = { "mat/schotterwagen_wiebe.mtl", },
+							mesh = "mw_schotterwagen::/vehicle/waggon/schotterwagen/msh/rad_lod2.msh",
+							name = "a2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6, 0, 0.471091, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 600,
+				visibleTo = 1050,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1948,
+				yearTo = 2004,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				description = _("schotterwagen_desc"),
+				name = _("schotterwagen_bauzug_name"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			extent = { 
+				bbMax = { 3.25049, 1.42591, 3.80545, },
+				bbMin = { -3.04326, -1.42591, -0.0291801, },
+			},
+			landVehicle = { 
+				brakeDeceleration = 0.7,
+				curveSpeedScale = 1,
+				engines = { },
+				friction = 0.02,
+				topSpeed = 16.6667,
+				weightEmpty = 11570,
+				weightMaxPayload = 21000,
+			},
+			loadIndicator = { 
+				configs = { 
+					slots_0 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 0, },
+									{ 1, },
+									{ 2, },
+									{ 3, },
+								},
+							},
+						},
+					},
+				},
+				slots = {
+					{ 
+						group = "body",
+						models = { "mw_schotterwagen::/vehicle/waggon/schotterwagen/beladung/load_stone_1.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "mw_schotterwagen::/vehicle/waggon/schotterwagen/beladung/load_stone_2.mdl", },
+						randomId = 2,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "mw_schotterwagen::/vehicle/waggon/schotterwagen/beladung/load_stone_3.mdl", },
+						randomId = 3,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "mw_schotterwagen::/vehicle/waggon/schotterwagen/beladung/load_stone_4.mdl", },
+						randomId = 4,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+			},
+			maintenance = { 
+				lifespan = 29220,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "a1", "a2", },
+					fakeBogies = { },
+				},
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "mw_basis::/vehicle/waggon/mw_basis/sound/mw_alt_gz.snd",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 2,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 24,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/stone/stone.cargo", },
+									},
+									loadIndicator = "slots_0",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTransportModes = { },
+				entrances = { },
+				filterTags = { "default", },
+				groupFileName = "menu_bauzugwagen.mdl",
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end
